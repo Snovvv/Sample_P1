@@ -16,4 +16,9 @@ class MainActivity : AppCompatActivity() {
         val intent= Intent(this,GameActivity::class.java)
         startActivity(intent)
     }
+
+    fun button4Tapped(view: View?){
+        val intent= Intent(this,GameActivity::class.java)
+        startActivity(intent)
+    }
 }
