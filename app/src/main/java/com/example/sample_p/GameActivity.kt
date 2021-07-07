@@ -1,6 +1,5 @@
 package com.example.sample_p
 
-import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
@@ -12,8 +11,7 @@ class GameActivity : AppCompatActivity() {
         setContentView(R.layout.activity_game)
     }
 
-    fun button3Tapped(view: View?){
-        val intent= Intent(this,MainActivity::class.java)
-        startActivity(intent)
+    fun onButtonTapped(view: View?){
+        finish()
     }
 }
