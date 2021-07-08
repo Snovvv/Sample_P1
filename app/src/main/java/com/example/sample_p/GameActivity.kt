@@ -2,6 +2,7 @@ package com.example.sample_p
 
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -13,5 +14,9 @@ class GameActivity : AppCompatActivity() {
 
     fun onButtonTapped(view: View?){
         finish()
+    }
+
+    fun onPaneleTapped(view: View?){
+
     }
 }
