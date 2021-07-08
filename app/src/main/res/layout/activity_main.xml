@@ -20,31 +20,31 @@
         app:srcCompat="@drawable/mokuzai_haikei02" />
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="180dp"
-        android:layout_height="180dp"
+        android:id="@+id/imageView9"
+        android:layout_width="207dp"
+        android:layout_height="158dp"
         android:rotation="33"
-        android:rotationY="182"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.181"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/kinoyajirushi" />
+        app:layout_constraintVertical_bias="0.682"
+        app:srcCompat="@drawable/ita" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="174dp"
-        android:layout_height="169dp"
-        android:rotation="25"
+        android:id="@+id/imageView5"
+        android:layout_width="207dp"
+        android:layout_height="158dp"
+        android:rotation="33"
+        android:rotationY="-182"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintHorizontal_bias="0.813"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.786"
-        app:srcCompat="@drawable/kinoyajirushi" />
+        app:layout_constraintVertical_bias="0.93"
+        app:srcCompat="@drawable/ita" />
 
     <Button
         android:id="@+id/button4"
@@ -54,12 +54,12 @@
         android:rotation="25"
         android:text="4×4"
         android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
-        app:layout_constraintEnd_toEndOf="@+id/imageView3"
-        app:layout_constraintHorizontal_bias="0.843"
-        app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toTopOf="@+id/imageView3"
-        app:layout_constraintVertical_bias="0.494" />
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="@+id/imageView9"
+        app:layout_constraintHorizontal_bias="0.626"
+        app:layout_constraintStart_toStartOf="@+id/imageView9"
+        app:layout_constraintTop_toTopOf="@+id/imageView9"
+        app:layout_constraintVertical_bias="0.591" />
 
     <Button
         android:id="@+id/button3"
@@ -71,7 +71,6 @@
         android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView5"
         app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5" />
 
