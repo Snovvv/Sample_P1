@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun button3Tapped(view: View?){
-        val intent= Intent(this,GameActivity::class.java)
+        val intent= Intent(this,Game::class.java)
         startActivity(intent)
     }
 
