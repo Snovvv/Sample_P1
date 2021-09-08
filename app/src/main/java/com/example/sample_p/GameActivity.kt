@@ -2,7 +2,6 @@ package com.example.sample_p
 
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 
 
