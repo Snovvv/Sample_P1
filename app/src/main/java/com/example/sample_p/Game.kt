@@ -13,7 +13,7 @@ class Game : AppCompatActivity() {
 
     fun buttonOnclick(view: View?) {
         val imageView: ImageView = findViewById(R.id.Pazl_piece01)
-        imageView.setImageResource(R.drawable.k_1)
+        imageView.setImageResource(R.drawable.k_4)
     }
 
 
