@@ -5,10 +5,10 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 
-class Result : AppCompatActivity() {
+class Resultk : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_result2)
+        setContentView(R.layout.activity_resultk)
     }
 
     fun titile(view: View?){
