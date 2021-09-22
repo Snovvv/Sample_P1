@@ -18,7 +18,7 @@
         app:srcCompat="@drawable/mokuzai_haikei" />
 
     <ImageView
-        android:id="@+id/imageView23"
+        android:id="@+id/frame"
         android:layout_width="310dp"
         android:layout_height="310dp"
         app:layout_constraintBottom_toBottomOf="@+id/linearLayout"
@@ -55,23 +55,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:onClick="buttonOnclick"
+                    android:onClick="buttonOnclick01"
                     android:tag="1"
-                    app:srcCompat="@drawable/a2_6" />
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_1" />
 
                 <ImageView
                     android:id="@+id/Pazl_piece02"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_5" />
+                    android:onClick="buttonOnclick02"
+                    android:tag="2"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_2" />
 
                 <ImageView
                     android:id="@+id/Pazl_piece03"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_4" />
+                    android:onClick="buttonOnclick03"
+                    android:tag="3"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_3" />
 
             </LinearLayout>
 
@@ -85,21 +92,30 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_9" />
+                    android:onClick="buttonOnclick04"
+                    android:tag="4"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_4" />
 
                 <ImageView
                     android:id="@+id/Pazl_piece05"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_3" />
+                    android:onClick="buttonOnclick05"
+                    android:tag="5"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_5" />
 
                 <ImageView
                     android:id="@+id/Pazl_piece06"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_8" />
+                    android:onClick="buttonOnclick06"
+                    android:tag="6"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_6" />
 
             </LinearLayout>
 
@@ -113,25 +129,45 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_2" />
+                    android:onClick="buttonOnclick07"
+                    android:tag="7"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_7" />
 
                 <ImageView
                     android:id="@+id/Pazl_piece08"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_1" />
+                    android:onClick="buttonOnclick08"
+                    android:tag="8"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_8" />
 
                 <ImageView
                     android:id="@+id/Pazl_piece09"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/a2_7" />
+                    android:onClick="buttonOnclick09"
+                    android:tag="9"
+                    android:visibility="visible"
+                    app:srcCompat="@drawable/a2_9" />
 
             </LinearLayout>
 
         </LinearLayout>
     </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonTapped"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
