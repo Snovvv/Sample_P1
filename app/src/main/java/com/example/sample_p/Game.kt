@@ -28,6 +28,7 @@ class Game : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game2)
+
         imageView0 = findViewById(R.id.Pazl_piece01)
         imageView1 = findViewById(R.id.Pazl_piece02)
         imageView2 = findViewById(R.id.Pazl_piece03)
