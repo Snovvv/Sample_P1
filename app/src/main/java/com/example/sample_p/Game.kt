@@ -467,7 +467,7 @@ class Game : AppCompatActivity() {
             if(anyaFlag[i] != checkFlag[i]) return
         }
 
-        val intent= Intent(this,Result::class.java)
+        val intent= Intent(this,Resultk::class.java)
         startActivity(intent)
     }
 
