@@ -161,25 +161,11 @@
         android:layout_width="178dp"
         android:layout_height="142dp"
         android:onClick="onButtonTapped"
-        app:layout_constraintBottom_toBottomOf="@+id/kabegami"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.565"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView23"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/ita" />
-
-    <ImageView
-        android:id="@+id/imageView13"
-        android:layout_width="134dp"
-        android:layout_height="132dp"
-        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.65"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView23"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/tamaho" />
+        app:layout_constraintVertical_bias="0.205"
+        app:srcCompat="@drawable/ita" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

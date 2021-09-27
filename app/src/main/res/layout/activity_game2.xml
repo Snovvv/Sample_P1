@@ -181,7 +181,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frame"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.269"
         app:srcCompat="@drawable/ita" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
